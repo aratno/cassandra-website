@@ -11,11 +11,11 @@ requirements].
 
 === Dependency management in Cassandra 4.2 and onwards
 
-In Cassandra 4.2 and onwards, dependencies are managed in Maven POM templates
+In Cassandra 4.2 and onwards dependencies are managed in Maven POM templates
 in `.build/\*-template.xml`. These templates are processed into valid Maven POMs
 with the `ant write-poms` task and copied to `build/\*.pom`.
 
-The following POMs from `build.xml` have been migrated to templates:
+The following POMs from a pre-4.2 `build.xml` have been migrated to templates:
 
 * `parent-pom`
   - is now  `.build/parent-pom-template.xml`
