@@ -79,6 +79,9 @@ Here is
 https://github.com/apache/cassandra/commit/b61bd93e574503aff8c29f0efefbe9879d3b32eb[an example]
 of a commit that changes dependency versions since 5.0.
 
+Finally execyt `ide/nbproject/update-netbeans-classpaths.sh` to update the classpaths used by netbeans based IDEs.
+This is required even if you do not personally run a netbeans based editor.
+
 === Troubleshooting and conflict resolution
 
 Here are some useful commands that may help you out resolving conflicts.
